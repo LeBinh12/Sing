@@ -4,7 +4,7 @@
   <h2>Nỗi Bật</h2>
   <h3><span>Nghệ Sĩ</span> Nổi Bật</h3>
 </div>
-
+    
 <div class="row">
 
   <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">

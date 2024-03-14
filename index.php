@@ -37,7 +37,9 @@
 </head>
 
 <body>
-
+<?php
+  require "../Sing/assets/api/RestApi.php";
+?>
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -54,6 +56,7 @@
     </div>
   </section>
 
+ 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
 
@@ -63,8 +66,9 @@
   <!-- ======= Hero Section ======= -->
   </header>
 
-           <?php  if(isset($_GET["Page"])){
-            require $_GET ["Page"];
+           <?php 
+            if(isset($_GET["Page"])){
+             require $_GET ["Page"];
            }
            else {
            // require ".//app/View/banner.php";

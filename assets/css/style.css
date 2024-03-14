@@ -460,8 +460,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/Chill.jpg") top left;
+  height: 80vh;
+  background: url("../img/Chill.jpg") repeat scroll 0;
   background-size: cover;
   position: relative;
 }

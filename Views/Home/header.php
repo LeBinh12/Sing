@@ -9,7 +9,16 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Trang Chủ</a></li>
           <li><a class="nav-link scrollto active" href="#about">Thư Viện</a></li>
-          <li><a class="nav-link scrollto" href="#about">Tìm Kiếm </a></li>
+          <li>
+          <div class="input-group rounded">
+            <form action="index.php?Page=Views/Page/Search.php" method="post">
+  <input type="search" class="form-control rounded" placeholder="Tiềm Kiếm" aria-label="Search" aria-describedby="search-addon" name="NameSearch" />
+  <span class="input-group-text border-0" id="search-addon" >
+  </form>
+    <i class="fas fa-search"></i>
+  </span>
+</div>
+          </li>
           <li><a class="nav-link scrollto" href="#about">Đăng Nhâp</a></li>
           <li><a class="nav-link scrollto" href="#about">Đăng Ký</a></li>
         </ul>
