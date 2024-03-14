@@ -59,6 +59,10 @@
  
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
+<?php
+
+?>
+
 
   <?php
     require "../Sing/Views/Home/header.php";

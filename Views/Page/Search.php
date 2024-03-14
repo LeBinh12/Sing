@@ -10,5 +10,7 @@
         $name = $_POST['NameSearch'];
 
         GetCategory($name);
-    }
+       
+        }
+    
 ?>
